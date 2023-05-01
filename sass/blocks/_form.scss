@@ -1,0 +1,44 @@
+.form {
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.form__input {
+    width: 229px;
+    padding: 10px;
+    line-height: 1.375;
+    border: 1px solid $accent-color;
+    border-radius: 4px;
+
+    &::placeholder {
+        color: #999999;
+    }
+}
+
+.form__button {
+    display: inline-block;
+    padding: 9px 30px 11px;
+    line-height: 1.375;
+    color: #fff;
+    background-color: $accent-color;
+    border: 1px solid $accent-color;
+    border-radius: 4px;
+    transition: color 0.2s ease-in, background-color 0.2s ease-in;
+
+    &:hover {
+        color: $accent-color;
+        background-color: #fff;
+    }
+
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}
+
+@media(max-width: 426px) {
+    .form {
+        flex-direction: column;
+    }
+}

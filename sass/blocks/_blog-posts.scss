@@ -1,0 +1,22 @@
+.blog-posts {
+    padding: 70px 0 45px;
+}
+
+.blog-posts__wrapper {
+    margin-bottom: 76px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+
+@media(max-width: 768px) {
+    .blog-posts {
+        padding: 20px 0;
+    }
+
+    .blog-posts__wrapper {
+        margin-bottom: 40px;
+    }
+}

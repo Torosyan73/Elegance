@@ -1,0 +1,35 @@
+.cart {
+    position: relative;
+    transition: opacity 0.2s ease-in;
+
+    .cart__text {
+        position: absolute;
+        top: -8px;
+        right: -10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        font-weight: 700;
+        font-size: 12px;
+        color: #fff;
+        background-color: $accent-color;
+        border-radius: 50%;
+    }
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+@media(max-width: 768px) {
+    .cart {
+        &:hover {
+            opacity: unset;
+        }
+    }
+}
+
+
+

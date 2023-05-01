@@ -1,0 +1,25 @@
+.products {
+    padding: 70px 0;
+}
+
+.products__wrapper {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+
+@media(max-width: 1200px) {
+    .products__wrapper {
+        flex-wrap: wrap;
+        max-width: 570px;
+        margin: 0 auto 40px;
+    }
+}
+
+@media(max-width: 768px) {
+    .products {
+        padding: 20px 0;
+    }
+}

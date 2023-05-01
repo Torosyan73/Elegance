@@ -1,0 +1,19 @@
+.section__header {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+}
+
+.section__header-subtitle {
+    font-size: 14px;
+    line-height: 1.357;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.section__button {
+    display: flex;
+    justify-content: center;
+}
